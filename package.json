@@ -1,0 +1,28 @@
+{
+  "name": "automailer",
+  "version": "1.0.0",
+  "description": "ABD-pro",
+  "main": "app.js.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines":{
+    "node":"10.15.3"
+  },
+  "repository":{
+    "type":"git",
+    "url":"https://git.heroku.com/automailerabd"
+  },
+  "keywords": [
+    "abd",
+    "automail"
+  ],
+  "author": "Delip",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.17",
+    "nodemailer": "^6.4.8"
+  }
+}
