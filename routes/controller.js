@@ -33,11 +33,11 @@ router.get('/get', async (req, res)=>{
     
         Registrations.get({},function(err,logins){
             if(err){
-                res.json({
+                res.send({
                     error:err
                 })
             }
-            res.json({
+            res.send({
                 message:logins
             })
         })
