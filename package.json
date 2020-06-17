@@ -1,17 +1,18 @@
 {
   "name": "automailer",
   "version": "1.0.0",
+  "engines":{
+    "node":"10.15.3",
+    "npm":"6.4.1"
+  },
   "description": "ABD-pro",
   "main": "app.js.js",
   "scripts": {
     "start": "node app.js"
   },
-  "engines":{
-    "node":"10.15.3"
-  },
   "repository":{
     "type":"git",
-    "url":"https://git.heroku.com/automailerabd"
+    "url":"https://github.com/DelipK/heroku-node.git"
   },
   "keywords": [
     "abd",
